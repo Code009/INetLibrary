@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		636EE5051BE90546008DA6BE /* INetLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 636EE5041BE90546008DA6BE /* INetLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636EE50B1BE90546008DA6BE /* INetLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636EE4FF1BE90546008DA6BE /* INetLibrary.framework */; };
+		636EE5121BE90546008DA6BE /* INetLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EE5111BE90546008DA6BE /* INetLibraryTests.m */; };
+		636EE52C1BE9062A008DA6BE /* DataEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 636EE51E1BE9062A008DA6BE /* DataEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636EE52D1BE9062A008DA6BE /* DataEncoding.mm in Sources */ = {isa = PBXBuildFile; fileRef = 636EE51F1BE9062A008DA6BE /* DataEncoding.mm */; };
+		636EE52E1BE9062A008DA6BE /* Debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 636EE5201BE9062A008DA6BE /* Debug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636EE52F1BE9062A008DA6BE /* Debug.mm in Sources */ = {isa = PBXBuildFile; fileRef = 636EE5211BE9062A008DA6BE /* Debug.mm */; };
+		636EE5301BE9062A008DA6BE /* Method.h in Headers */ = {isa = PBXBuildFile; fileRef = 636EE5221BE9062A008DA6BE /* Method.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636EE5311BE9062A008DA6BE /* Method.mm in Sources */ = {isa = PBXBuildFile; fileRef = 636EE5231BE9062A008DA6BE /* Method.mm */; };
+		636EE5321BE9062A008DA6BE /* Misc.h in Headers */ = {isa = PBXBuildFile; fileRef = 636EE5241BE9062A008DA6BE /* Misc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636EE5331BE9062A008DA6BE /* Misc.mm in Sources */ = {isa = PBXBuildFile; fileRef = 636EE5251BE9062A008DA6BE /* Misc.mm */; };
+		636EE5341BE9062A008DA6BE /* Property.h in Headers */ = {isa = PBXBuildFile; fileRef = 636EE5261BE9062A008DA6BE /* Property.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636EE5351BE9062A008DA6BE /* Property.mm in Sources */ = {isa = PBXBuildFile; fileRef = 636EE5271BE9062A008DA6BE /* Property.mm */; };
+		636EE5361BE9062A008DA6BE /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 636EE5281BE9062A008DA6BE /* Timer.cpp */; };
+		636EE5371BE9062A008DA6BE /* Timer.h in Headers */ = {isa = PBXBuildFile; fileRef = 636EE5291BE9062A008DA6BE /* Timer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636EE5381BE9062A008DA6BE /* Type.h in Headers */ = {isa = PBXBuildFile; fileRef = 636EE52A1BE9062A008DA6BE /* Type.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636EE5391BE9062A008DA6BE /* Type.mm in Sources */ = {isa = PBXBuildFile; fileRef = 636EE52B1BE9062A008DA6BE /* Type.mm */; };
+		636EE5471BE90632008DA6BE /* INetDataControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 636EE53A1BE90632008DA6BE /* INetDataControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636EE5481BE90632008DA6BE /* INetDataControl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 636EE53B1BE90632008DA6BE /* INetDataControl.mm */; };
+		636EE5491BE90632008DA6BE /* INetDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 636EE53C1BE90632008DA6BE /* INetDataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636EE54A1BE90632008DA6BE /* INetHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 636EE53D1BE90632008DA6BE /* INetHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636EE54B1BE90632008DA6BE /* INetHTTPRequest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 636EE53E1BE90632008DA6BE /* INetHTTPRequest.mm */; };
+		636EE54C1BE90632008DA6BE /* INetRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 636EE53F1BE90632008DA6BE /* INetRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636EE54D1BE90632008DA6BE /* INetRequest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 636EE5401BE90632008DA6BE /* INetRequest.mm */; };
+		636EE54E1BE90632008DA6BE /* INetRequestQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 636EE5411BE90632008DA6BE /* INetRequestQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636EE54F1BE90632008DA6BE /* INetRequestQueue.mm in Sources */ = {isa = PBXBuildFile; fileRef = 636EE5421BE90632008DA6BE /* INetRequestQueue.mm */; };
+		636EE5501BE90632008DA6BE /* INetSimulateRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 636EE5431BE90632008DA6BE /* INetSimulateRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636EE5511BE90632008DA6BE /* INetSimulateRequest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 636EE5441BE90632008DA6BE /* INetSimulateRequest.mm */; };
+		636EE5521BE90632008DA6BE /* INInternetReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 636EE5451BE90632008DA6BE /* INInternetReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636EE5531BE90632008DA6BE /* INInternetReachability.mm in Sources */ = {isa = PBXBuildFile; fileRef = 636EE5461BE90632008DA6BE /* INInternetReachability.mm */; };
+		636EE55F1BE9063E008DA6BE /* INNetActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 636EE5541BE9063E008DA6BE /* INNetActivityIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636EE5601BE9063E008DA6BE /* INNetActivityIndicator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 636EE5551BE9063E008DA6BE /* INNetActivityIndicator.mm */; };
+		636EE5611BE9063E008DA6BE /* INUIKeyboardEditScroll.h in Headers */ = {isa = PBXBuildFile; fileRef = 636EE5561BE9063E008DA6BE /* INUIKeyboardEditScroll.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636EE5621BE9063E008DA6BE /* INUIKeyboardEditScroll.mm in Sources */ = {isa = PBXBuildFile; fileRef = 636EE5571BE9063E008DA6BE /* INUIKeyboardEditScroll.mm */; };
+		636EE5631BE9063E008DA6BE /* INUINaviTabScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 636EE5581BE9063E008DA6BE /* INUINaviTabScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636EE5641BE9063E008DA6BE /* INUINaviTabScrollView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 636EE5591BE9063E008DA6BE /* INUINaviTabScrollView.mm */; };
+		636EE5651BE9063E008DA6BE /* INUIPageScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 636EE55A1BE9063E008DA6BE /* INUIPageScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636EE5661BE9063E008DA6BE /* INUIPageScrollView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 636EE55B1BE9063E008DA6BE /* INUIPageScrollView.mm */; };
+		636EE5671BE9063E008DA6BE /* INUIProgressControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 636EE55C1BE9063E008DA6BE /* INUIProgressControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		636EE5681BE9063E008DA6BE /* INUIProgressControl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 636EE55D1BE9063E008DA6BE /* INUIProgressControl.mm */; };
+		636EE5691BE9063E008DA6BE /* INUIProgressControlSubclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 636EE55E1BE9063E008DA6BE /* INUIProgressControlSubclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		636EE50C1BE90546008DA6BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 636EE4F61BE90546008DA6BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 636EE4FE1BE90546008DA6BE;
+			remoteInfo = INetLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		636EE4FF1BE90546008DA6BE /* INetLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = INetLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		636EE5031BE90546008DA6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636EE5041BE90546008DA6BE /* INetLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INetLibrary.h; sourceTree = "<group>"; };
+		636EE50A1BE90546008DA6BE /* INetLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = INetLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		636EE5101BE90546008DA6BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636EE5111BE90546008DA6BE /* INetLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = INetLibraryTests.m; sourceTree = "<group>"; };
+		636EE51E1BE9062A008DA6BE /* DataEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataEncoding.h; sourceTree = "<group>"; };
+		636EE51F1BE9062A008DA6BE /* DataEncoding.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DataEncoding.mm; sourceTree = "<group>"; };
+		636EE5201BE9062A008DA6BE /* Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debug.h; sourceTree = "<group>"; };
+		636EE5211BE9062A008DA6BE /* Debug.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Debug.mm; sourceTree = "<group>"; };
+		636EE5221BE9062A008DA6BE /* Method.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Method.h; sourceTree = "<group>"; };
+		636EE5231BE9062A008DA6BE /* Method.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Method.mm; sourceTree = "<group>"; };
+		636EE5241BE9062A008DA6BE /* Misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Misc.h; sourceTree = "<group>"; };
+		636EE5251BE9062A008DA6BE /* Misc.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Misc.mm; sourceTree = "<group>"; };
+		636EE5261BE9062A008DA6BE /* Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Property.h; sourceTree = "<group>"; };
+		636EE5271BE9062A008DA6BE /* Property.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Property.mm; sourceTree = "<group>"; };
+		636EE5281BE9062A008DA6BE /* Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		636EE5291BE9062A008DA6BE /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		636EE52A1BE9062A008DA6BE /* Type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type.h; sourceTree = "<group>"; };
+		636EE52B1BE9062A008DA6BE /* Type.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Type.mm; sourceTree = "<group>"; };
+		636EE53A1BE90632008DA6BE /* INetDataControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INetDataControl.h; sourceTree = "<group>"; };
+		636EE53B1BE90632008DA6BE /* INetDataControl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = INetDataControl.mm; sourceTree = "<group>"; };
+		636EE53C1BE90632008DA6BE /* INetDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INetDataModel.h; sourceTree = "<group>"; };
+		636EE53D1BE90632008DA6BE /* INetHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INetHTTPRequest.h; sourceTree = "<group>"; };
+		636EE53E1BE90632008DA6BE /* INetHTTPRequest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = INetHTTPRequest.mm; sourceTree = "<group>"; };
+		636EE53F1BE90632008DA6BE /* INetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INetRequest.h; sourceTree = "<group>"; };
+		636EE5401BE90632008DA6BE /* INetRequest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = INetRequest.mm; sourceTree = "<group>"; };
+		636EE5411BE90632008DA6BE /* INetRequestQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INetRequestQueue.h; sourceTree = "<group>"; };
+		636EE5421BE90632008DA6BE /* INetRequestQueue.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = INetRequestQueue.mm; sourceTree = "<group>"; };
+		636EE5431BE90632008DA6BE /* INetSimulateRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INetSimulateRequest.h; sourceTree = "<group>"; };
+		636EE5441BE90632008DA6BE /* INetSimulateRequest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = INetSimulateRequest.mm; sourceTree = "<group>"; };
+		636EE5451BE90632008DA6BE /* INInternetReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INInternetReachability.h; sourceTree = "<group>"; };
+		636EE5461BE90632008DA6BE /* INInternetReachability.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = INInternetReachability.mm; sourceTree = "<group>"; };
+		636EE5541BE9063E008DA6BE /* INNetActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INNetActivityIndicator.h; sourceTree = "<group>"; };
+		636EE5551BE9063E008DA6BE /* INNetActivityIndicator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = INNetActivityIndicator.mm; sourceTree = "<group>"; };
+		636EE5561BE9063E008DA6BE /* INUIKeyboardEditScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INUIKeyboardEditScroll.h; sourceTree = "<group>"; };
+		636EE5571BE9063E008DA6BE /* INUIKeyboardEditScroll.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = INUIKeyboardEditScroll.mm; sourceTree = "<group>"; };
+		636EE5581BE9063E008DA6BE /* INUINaviTabScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INUINaviTabScrollView.h; sourceTree = "<group>"; };
+		636EE5591BE9063E008DA6BE /* INUINaviTabScrollView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = INUINaviTabScrollView.mm; sourceTree = "<group>"; };
+		636EE55A1BE9063E008DA6BE /* INUIPageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INUIPageScrollView.h; sourceTree = "<group>"; };
+		636EE55B1BE9063E008DA6BE /* INUIPageScrollView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = INUIPageScrollView.mm; sourceTree = "<group>"; };
+		636EE55C1BE9063E008DA6BE /* INUIProgressControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INUIProgressControl.h; sourceTree = "<group>"; };
+		636EE55D1BE9063E008DA6BE /* INUIProgressControl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = INUIProgressControl.mm; sourceTree = "<group>"; };
+		636EE55E1BE9063E008DA6BE /* INUIProgressControlSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INUIProgressControlSubclass.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		636EE4FB1BE90546008DA6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636EE5071BE90546008DA6BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636EE50B1BE90546008DA6BE /* INetLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		636EE4F51BE90546008DA6BE = {
+			isa = PBXGroup;
+			children = (
+				636EE5011BE90546008DA6BE /* INetLibrary */,
+				636EE50E1BE90546008DA6BE /* INetLibraryTests */,
+				636EE5001BE90546008DA6BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		636EE5001BE90546008DA6BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				636EE4FF1BE90546008DA6BE /* INetLibrary.framework */,
+				636EE50A1BE90546008DA6BE /* INetLibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		636EE5011BE90546008DA6BE /* INetLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				636EE51B1BE905D8008DA6BE /* Lib */,
+				636EE51C1BE905E2008DA6BE /* Network */,
+				636EE51D1BE905E7008DA6BE /* UI */,
+				636EE5041BE90546008DA6BE /* INetLibrary.h */,
+				636EE5021BE90546008DA6BE /* Supporting Files */,
+			);
+			path = INetLibrary;
+			sourceTree = "<group>";
+		};
+		636EE5021BE90546008DA6BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				636EE5031BE90546008DA6BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		636EE50E1BE90546008DA6BE /* INetLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				636EE5111BE90546008DA6BE /* INetLibraryTests.m */,
+				636EE50F1BE90546008DA6BE /* Supporting Files */,
+			);
+			path = INetLibraryTests;
+			sourceTree = "<group>";
+		};
+		636EE50F1BE90546008DA6BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				636EE5101BE90546008DA6BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		636EE51B1BE905D8008DA6BE /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				636EE51E1BE9062A008DA6BE /* DataEncoding.h */,
+				636EE51F1BE9062A008DA6BE /* DataEncoding.mm */,
+				636EE5201BE9062A008DA6BE /* Debug.h */,
+				636EE5211BE9062A008DA6BE /* Debug.mm */,
+				636EE5221BE9062A008DA6BE /* Method.h */,
+				636EE5231BE9062A008DA6BE /* Method.mm */,
+				636EE5241BE9062A008DA6BE /* Misc.h */,
+				636EE5251BE9062A008DA6BE /* Misc.mm */,
+				636EE5261BE9062A008DA6BE /* Property.h */,
+				636EE5271BE9062A008DA6BE /* Property.mm */,
+				636EE5281BE9062A008DA6BE /* Timer.cpp */,
+				636EE5291BE9062A008DA6BE /* Timer.h */,
+				636EE52A1BE9062A008DA6BE /* Type.h */,
+				636EE52B1BE9062A008DA6BE /* Type.mm */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		636EE51C1BE905E2008DA6BE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				636EE53A1BE90632008DA6BE /* INetDataControl.h */,
+				636EE53B1BE90632008DA6BE /* INetDataControl.mm */,
+				636EE53C1BE90632008DA6BE /* INetDataModel.h */,
+				636EE53D1BE90632008DA6BE /* INetHTTPRequest.h */,
+				636EE53E1BE90632008DA6BE /* INetHTTPRequest.mm */,
+				636EE53F1BE90632008DA6BE /* INetRequest.h */,
+				636EE5401BE90632008DA6BE /* INetRequest.mm */,
+				636EE5411BE90632008DA6BE /* INetRequestQueue.h */,
+				636EE5421BE90632008DA6BE /* INetRequestQueue.mm */,
+				636EE5431BE90632008DA6BE /* INetSimulateRequest.h */,
+				636EE5441BE90632008DA6BE /* INetSimulateRequest.mm */,
+				636EE5451BE90632008DA6BE /* INInternetReachability.h */,
+				636EE5461BE90632008DA6BE /* INInternetReachability.mm */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		636EE51D1BE905E7008DA6BE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				636EE5541BE9063E008DA6BE /* INNetActivityIndicator.h */,
+				636EE5551BE9063E008DA6BE /* INNetActivityIndicator.mm */,
+				636EE5561BE9063E008DA6BE /* INUIKeyboardEditScroll.h */,
+				636EE5571BE9063E008DA6BE /* INUIKeyboardEditScroll.mm */,
+				636EE5581BE9063E008DA6BE /* INUINaviTabScrollView.h */,
+				636EE5591BE9063E008DA6BE /* INUINaviTabScrollView.mm */,
+				636EE55A1BE9063E008DA6BE /* INUIPageScrollView.h */,
+				636EE55B1BE9063E008DA6BE /* INUIPageScrollView.mm */,
+				636EE55C1BE9063E008DA6BE /* INUIProgressControl.h */,
+				636EE55D1BE9063E008DA6BE /* INUIProgressControl.mm */,
+				636EE55E1BE9063E008DA6BE /* INUIProgressControlSubclass.h */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		636EE4FC1BE90546008DA6BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636EE54A1BE90632008DA6BE /* INetHTTPRequest.h in Headers */,
+				636EE5321BE9062A008DA6BE /* Misc.h in Headers */,
+				636EE54E1BE90632008DA6BE /* INetRequestQueue.h in Headers */,
+				636EE5341BE9062A008DA6BE /* Property.h in Headers */,
+				636EE5611BE9063E008DA6BE /* INUIKeyboardEditScroll.h in Headers */,
+				636EE5491BE90632008DA6BE /* INetDataModel.h in Headers */,
+				636EE54C1BE90632008DA6BE /* INetRequest.h in Headers */,
+				636EE55F1BE9063E008DA6BE /* INNetActivityIndicator.h in Headers */,
+				636EE5651BE9063E008DA6BE /* INUIPageScrollView.h in Headers */,
+				636EE5691BE9063E008DA6BE /* INUIProgressControlSubclass.h in Headers */,
+				636EE5501BE90632008DA6BE /* INetSimulateRequest.h in Headers */,
+				636EE5521BE90632008DA6BE /* INInternetReachability.h in Headers */,
+				636EE52E1BE9062A008DA6BE /* Debug.h in Headers */,
+				636EE5051BE90546008DA6BE /* INetLibrary.h in Headers */,
+				636EE5471BE90632008DA6BE /* INetDataControl.h in Headers */,
+				636EE5671BE9063E008DA6BE /* INUIProgressControl.h in Headers */,
+				636EE5631BE9063E008DA6BE /* INUINaviTabScrollView.h in Headers */,
+				636EE52C1BE9062A008DA6BE /* DataEncoding.h in Headers */,
+				636EE5371BE9062A008DA6BE /* Timer.h in Headers */,
+				636EE5381BE9062A008DA6BE /* Type.h in Headers */,
+				636EE5301BE9062A008DA6BE /* Method.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		636EE4FE1BE90546008DA6BE /* INetLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 636EE5151BE90546008DA6BE /* Build configuration list for PBXNativeTarget "INetLibrary" */;
+			buildPhases = (
+				636EE4FA1BE90546008DA6BE /* Sources */,
+				636EE4FB1BE90546008DA6BE /* Frameworks */,
+				636EE4FC1BE90546008DA6BE /* Headers */,
+				636EE4FD1BE90546008DA6BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = INetLibrary;
+			productName = INetLibrary;
+			productReference = 636EE4FF1BE90546008DA6BE /* INetLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		636EE5091BE90546008DA6BE /* INetLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 636EE5181BE90546008DA6BE /* Build configuration list for PBXNativeTarget "INetLibraryTests" */;
+			buildPhases = (
+				636EE5061BE90546008DA6BE /* Sources */,
+				636EE5071BE90546008DA6BE /* Frameworks */,
+				636EE5081BE90546008DA6BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				636EE50D1BE90546008DA6BE /* PBXTargetDependency */,
+			);
+			name = INetLibraryTests;
+			productName = INetLibraryTests;
+			productReference = 636EE50A1BE90546008DA6BE /* INetLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		636EE4F61BE90546008DA6BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Code009;
+				TargetAttributes = {
+					636EE4FE1BE90546008DA6BE = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					636EE5091BE90546008DA6BE = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 636EE4F91BE90546008DA6BE /* Build configuration list for PBXProject "INetLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 636EE4F51BE90546008DA6BE;
+			productRefGroup = 636EE5001BE90546008DA6BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				636EE4FE1BE90546008DA6BE /* INetLibrary */,
+				636EE5091BE90546008DA6BE /* INetLibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		636EE4FD1BE90546008DA6BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636EE5081BE90546008DA6BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		636EE4FA1BE90546008DA6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636EE54B1BE90632008DA6BE /* INetHTTPRequest.mm in Sources */,
+				636EE54F1BE90632008DA6BE /* INetRequestQueue.mm in Sources */,
+				636EE52D1BE9062A008DA6BE /* DataEncoding.mm in Sources */,
+				636EE5681BE9063E008DA6BE /* INUIProgressControl.mm in Sources */,
+				636EE5511BE90632008DA6BE /* INetSimulateRequest.mm in Sources */,
+				636EE5641BE9063E008DA6BE /* INUINaviTabScrollView.mm in Sources */,
+				636EE5311BE9062A008DA6BE /* Method.mm in Sources */,
+				636EE5351BE9062A008DA6BE /* Property.mm in Sources */,
+				636EE5661BE9063E008DA6BE /* INUIPageScrollView.mm in Sources */,
+				636EE5391BE9062A008DA6BE /* Type.mm in Sources */,
+				636EE54D1BE90632008DA6BE /* INetRequest.mm in Sources */,
+				636EE5361BE9062A008DA6BE /* Timer.cpp in Sources */,
+				636EE5601BE9063E008DA6BE /* INNetActivityIndicator.mm in Sources */,
+				636EE5531BE90632008DA6BE /* INInternetReachability.mm in Sources */,
+				636EE5621BE9063E008DA6BE /* INUIKeyboardEditScroll.mm in Sources */,
+				636EE5481BE90632008DA6BE /* INetDataControl.mm in Sources */,
+				636EE52F1BE9062A008DA6BE /* Debug.mm in Sources */,
+				636EE5331BE9062A008DA6BE /* Misc.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636EE5061BE90546008DA6BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636EE5121BE90546008DA6BE /* INetLibraryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		636EE50D1BE90546008DA6BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 636EE4FE1BE90546008DA6BE /* INetLibrary */;
+			targetProxy = 636EE50C1BE90546008DA6BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		636EE5131BE90546008DA6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		636EE5141BE90546008DA6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
+		636EE5161BE90546008DA6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = INetLibrary/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		636EE5171BE90546008DA6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = INetLibrary/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		636EE5191BE90546008DA6BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = INetLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		636EE51A1BE90546008DA6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = INetLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		636EE4F91BE90546008DA6BE /* Build configuration list for PBXProject "INetLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636EE5131BE90546008DA6BE /* Debug */,
+				636EE5141BE90546008DA6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		636EE5151BE90546008DA6BE /* Build configuration list for PBXNativeTarget "INetLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636EE5161BE90546008DA6BE /* Debug */,
+				636EE5171BE90546008DA6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		636EE5181BE90546008DA6BE /* Build configuration list for PBXNativeTarget "INetLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636EE5191BE90546008DA6BE /* Debug */,
+				636EE51A1BE90546008DA6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 636EE4F61BE90546008DA6BE /* Project object */;
+}
